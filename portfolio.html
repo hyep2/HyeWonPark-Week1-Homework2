@@ -1,0 +1,94 @@
+<!-- This will be my PORTFOLIO PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/portfolio.css">
+
+</head>
+
+<body>
+  <ul class="nav justify-content-end ">
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./about.html">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="./contact.html">Contact</a>
+    </li>
+  </ul>
+
+  <h1>My Portfolio</h1>
+  <div class="accordion" id="accordionExample">
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          American Flag Project
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <img src="./images/flag.jpg" alt="American flag" class="float-left" />
+          <h5>Project details:</h5>
+          <p>Using CSS Flexbox, CSS Grid, Bootstrap, made the United States Flag with 13 alternating white/red stripes with the blue and white stars on the upper left.  </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- accordion item 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Student Mini Project
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <img src="./images/grid.jpg" alt="American flag" class="float-right" style="height: 200px"/>
+          <h5>Project details:</h5>
+          <p>Constructed a CSS Snippet Cheatsheet using flexbox and media queries to create a responsive grid layout. </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- accordion item 3 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+          aria-expanded="false" aria-controls="collapseThree">
+          Calculator
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <img src="./images/calculator.jpg" alt="calculator" style="height: 200px" />
+          <h5>Project details:</h5>
+          <p>pending... </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
