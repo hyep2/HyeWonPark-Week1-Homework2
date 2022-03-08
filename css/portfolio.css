@@ -47,3 +47,7 @@ h5 {
 img {
   height: 25rem;
 }
+
+.card-text {
+  height: 18rem;
+}
