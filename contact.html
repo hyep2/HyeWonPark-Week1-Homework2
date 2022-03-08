@@ -31,26 +31,30 @@
   </ul>
 
   <h1>Please contact me if you have any questions! </h1>
-  <!-- for inputting name -->
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Name</label>
-    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First Name, Last Name">
-  </div>
-
-  <!-- for inputting email address -->
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
   
-  <!-- for inputting message -->
-  <div class="mb-3 message">
-    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
+  <form action="mailto:hyewonpark26@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+    <!-- for inputting name -->
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Name</label>
+      <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="First Name, Last Name">
+    </div>
+    
+    <!-- for inputting email address -->
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+    </div>
+    
+    <!-- for inputting message -->
+    <div class="mb-3 message">
+      <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    
+    <!-- submit button -->
+    <button type="submit" class="btn btn-secondary btn-sm">Submit</button>
+  </form>
   
-  <!-- submit button -->
-  <button type="button" class="btn btn-secondary btn-sm">Submit</button>
 
   <!-- for bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

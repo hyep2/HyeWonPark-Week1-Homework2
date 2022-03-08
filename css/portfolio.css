@@ -1,6 +1,6 @@
 /* navigation styling */
 .nav {
-  background-color: rgb(245, 214, 219);
+  background-color: antiquewhite
 }
 
 .nav-link {
@@ -15,13 +15,13 @@ h1 {
   text-align: center;
   margin-top: 10px;
   font-weight: bold;
-  background-color: pink;
+  background-color: rgb(247, 224, 195)
 }
 
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: rgb(238, 224, 226);
+  background-color: antiquewhite
 }
 
 /* floating for images */
@@ -42,4 +42,8 @@ button {
 
 h5 {
   margin-top: 10px;
+}
+
+img {
+  height: 25rem;
 }

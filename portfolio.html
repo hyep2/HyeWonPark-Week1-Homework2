@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <!-- /* ===== NAVIGATION BAR ====*/ -->
   <ul class="nav justify-content-end ">
     <li class="nav-item">
       <a class="nav-link" aria-current="page" href="./index.html">Home</a>
@@ -29,66 +30,88 @@
     </li>
   </ul>
 
-  <h1>My Portfolio</h1>
-  <div class="accordion" id="accordionExample">
-    
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-          aria-expanded="true" aria-controls="collapseOne">
-          American Flag Project
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <img src="./images/flag.jpg" alt="American flag" class="float-left" />
-          <h5>Project details:</h5>
-          <p>Using CSS Flexbox, CSS Grid, Bootstrap, made the United States Flag with 13 alternating white/red stripes with the blue and white stars on the upper left.  </p>
+  <!-- /* ===== MY PROJECTS ====*/ -->
+  <h1>PROJECTS</h1>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4 ">
+      <!-- project 1 -->
+      <div class="col">
+        <div class="card text-dark bg-light">
+          <img src="./images/amiibohome.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-header">Amiibo Locator</h3>
+            <ul>
+              <li><a class="card-title" href="https://bsandfer.github.io/group-project/">Amiibo Locator Link</a></li>
+              <li><a class="card-title" href="https://bsandfer.github.io/group-project/">Github Repo Link</a></li>
+            </ul>
+            <p class="card-text">Description:
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    
-    <!-- accordion item 2 -->
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-          aria-expanded="false" aria-controls="collapseTwo">
-          Student Mini Project
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <img src="./images/grid.jpg" alt="American flag" class="float-right" style="height: 200px"/>
-          <h5>Project details:</h5>
-          <p>Constructed a CSS Snippet Cheatsheet using flexbox and media queries to create a responsive grid layout. </p>
+
+      <!-- project 2 -->
+      <div class="col">
+        <div class="card text-dark bg-light">
+          <img src="./images/weather.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-header">Weather Dashboard</h3>
+            <ul>
+              <li><a class="card-title" href="https://hyep2.github.io/WeatherDashboard-HWP/">Weather Dashboard Link</a></li>
+              <li><a class="card-title" href="https://bsandfer.github.io/group-project/">Github Repo Link</a></li>
+            </ul>
+            <p class="card-text">Description: This weather dashboard application allows users to search for the weather of the city they want. Upon selection of the city, the following information will display: temperature, wind speed, humidity, UV index, and weather icon for the current and the next five days. The application will also store the user's search log, by which the user can easily access weather information of previously searched cities. 
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- project 3 -->
+      <div class="col">
+        <div class="card text-dark bg-light">
+          <img src="./images/workplanner.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-header">Work Day Planner</h3>
+            <ul>
+              <li><a class="card-title" href="https://hyep2.github.io/WorkPlanner-HWP/">Work Planner Link</a></li>
+              <li><a class="card-title" href="https://bsandfer.github.io/group-project/">Github Repo Link</a></li>
+            </ul>
+            <p class="card-text">Description: 
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- project 4 -->
+      <div class="col">
+        <div class="card text-dark bg-light">
+          <img src="./images/password.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-header">Password Generator</h3>
+            <ul>
+              <li><a class="card-title" href="https://hyep2.github.io/PasswordGenerator-HWP/">Password Generator Link</a></li>
+              <li><a class="card-title" href="https://bsandfer.github.io/group-project/">Github Repo Link</a></li>
+            </ul>
+            <p class="card-text"> Description:
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- accordion item 3 -->
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-          aria-expanded="false" aria-controls="collapseThree">
-          Calculator
-        </button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <img src="./images/calculator.jpg" alt="calculator" style="height: 200px" />
-          <h5>Project details:</h5>
-          <p>pending... </p>
-        </div>
-      </div>
-    </div>
+
+
+
+
+
+
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
