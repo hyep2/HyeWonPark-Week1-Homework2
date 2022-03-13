@@ -19,10 +19,9 @@ body {
   background-color: rgba(40, 7, 129, 0.911);
 }
 
-h1 {
+h2 {
   text-align: center;
   margin-top: 10px;
-  font-weight: bold;
   color: hotpink;
 }
 

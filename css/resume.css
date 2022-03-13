@@ -22,20 +22,19 @@ body {
 }
 
 
-.mb-3 {
-  font-size: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
 
-#exampleFormControlTextarea1 {
-  height: 300px;
 
-}
-
-h1 {
+h2 {
   text-align: center;
   margin-top: 10px;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: hotpink
+}
+
+
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
