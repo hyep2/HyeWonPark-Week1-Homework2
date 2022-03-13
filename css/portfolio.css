@@ -1,28 +1,32 @@
 /* navigation styling */
 .nav {
-  background-color: antiquewhite
+  background-color: rgb(40, 7, 129);
+  height: 2rem;
+  font-size: 0.8rem;
 }
 
 .nav-link {
-  color: black;
+  color: hotpink;
+
 }
 
 .active {
   font-weight: bold;
 }
 
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(40, 7, 129, 0.911);
+}
+
 h1 {
   text-align: center;
   margin-top: 10px;
   font-weight: bold;
-  background-color: rgb(247, 224, 195)
+  color: hotpink;
 }
 
 
-body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: antiquewhite
-}
 
 /* floating for images */
 .float-left {
@@ -51,3 +55,4 @@ img {
 .card-text {
   height: 18rem;
 }
+
