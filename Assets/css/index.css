@@ -44,7 +44,7 @@ h3 {
   color: WHITE;
   font-weight: bold;
   font-size: 40px;
-  text-align: right;
+  text-align: center;
 }
 
 h1 {
@@ -53,7 +53,7 @@ h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
   font-size: 70px;
-  text-align: right;
+  text-align: center;
   /* background-color: white; */
 
 }
@@ -105,12 +105,10 @@ h1 {
 
 address {
   text-align: start;
-  ;
 }
 
-a {
+a, h6 {
   color: rgb(233, 143, 188);
-
 }
 
 a:hover {
@@ -120,5 +118,26 @@ a:hover {
 .contacts {
   color: hotpink;
   font-size: small;
+  text-align: center;
 
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  background-color:slateblue;
+}
+.card{
+  padding:0rem;
+  margin: 0rem;
+}
+.card-img-top {
+  border-radius: 50rem;
+  
+  width: 25%;
+  text-align: center;
 }

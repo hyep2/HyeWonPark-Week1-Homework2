@@ -10,5 +10,5 @@ This portfolio web application displays all the professional information about m
 ## LINK TO DEPLOYED APP 
 https://hyep2.github.io/Portfolio-HWP/
 
-![app picture](./images/portfolio.png)
+![app picture](./assets/images/portfolio.png)
 

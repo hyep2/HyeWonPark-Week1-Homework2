@@ -55,3 +55,16 @@ img {
   height: 18rem;
 }
 
+.col {
+  padding: 1rem;
+  margin: 0rem;
+  border: 0px;
+  
+}
+.card {
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
