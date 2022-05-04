@@ -52,7 +52,7 @@ img {
 }
 
 .card-text {
-  height: 20rem;
+  height: 18rem;
 }
 
 .col {
@@ -67,4 +67,12 @@ img {
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .card-text {
+  height: 30rem;
+}
+
+
 }
